@@ -1,6 +1,19 @@
-@import '@nativescript/theme/css/core.css';
-@import '@nativescript/theme/css/default.css';
+.bg-blue {
+  background-color: #65adf1;
+}
 
-Button.-primary {
-  font-size: 18;
+.bg-gradient {
+  background: linear-gradient(90deg, #65adf1 0%, #f9d423 100%);
+}
+
+GridLayout {
+  background-color: black;
+}
+
+Button {
+  horizontal-alignment: center;
+  vertical-alignment: center;
+  color: white;
+  padding: 12 16;
+  border-radius: 16;
 }
